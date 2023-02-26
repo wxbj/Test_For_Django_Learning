@@ -10,13 +10,13 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
-    'Manage_System',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Manage_System',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +52,7 @@ WSGI_APPLICATION = 'Test_For_Django_Learning.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
+        'NAME': 'test1',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',
